@@ -1,0 +1,192 @@
+#include<stdio.h>
+int main()
+{
+ int a, option ,roll,b;
+ char name1[20];
+ char name2[20];
+ char name3[20];
+ 
+ printf("Enter your  name  : \n");
+ scanf("%s",name1);
+ 
+ printf("Enter father name  : \n");
+ scanf("%s",name2);
+ 
+ printf("Enter surname name  : \n");
+ scanf("%s",name3);
+ 
+ 
+ 
+ printf("enter your roll no : \n");
+ scanf("%d",&roll);
+ 
+ 
+ printf(" Here , question will be 10\n");
+ 
+
+ 
+ for(a=0;a<=11;a++)
+ {
+   printf("%dThe question is : \n",a);
+   scanf("%d",&a);
+   
+   if(a==1)
+   {
+   end1:
+    printf(" 1] what is the name of highest civilian award in India?\n 1) Padma Shri 2) Padma bhushan 3) Bharat ratna 4) Padma Vibhushan\n");
+    printf("Enter correct option : ");
+    scanf("%d",& option);
+    
+    if(option>=5||option<=0)
+     {
+      goto end1;
+      }
+    }
+    
+    
+    else if(a==2)
+     {
+     end2:
+     printf(" 2) which Indian state is known as the land of rising sun?\n 1) Nagaland 2) Arunachal Pradesh 3) mizoram 4) Manipur\n");
+     printf("Enter correct option : ");
+     scanf("%d",& option);
+     
+        if(option>=5||option<=0)
+         {
+           goto end2;
+           }
+     
+      }
+      
+      
+     
+     else if(a==3)
+    {
+    end3:
+     printf("3] which Indian city is known as the pink city?\n 1) Agra 2) udaipur 3) jodhpur 4) Jaipur\n");
+     printf("Enter correct option : ");
+     scanf("%d",& option);
+     
+      if(option>=5||option<=0)
+      {
+       goto end3;
+       }
+       
+     }
+     
+     
+    else if(a==4)
+    {
+    end4:
+     printf("4] Who wrote the Indian national  anthem?\n 1] Rabindranath tagor 2) Mahatma Gandhi 3) sarojini naidu 4) bankim Chatterjee\n");
+     printf("Enter the correct option : ");
+     scanf("%d",& option);
+     
+     if(option>=5||option<=0)
+      {
+      goto end4;
+      }
+      
+      
+     }
+     
+     
+    else if(a==5)
+    {
+    end5:
+     printf("5] which state is known as the spice garden of India?\n 1) Arunachal Pradesh 2) Karnataka 3) Kerala 4) Tamil Nadu\n");
+     printf("Enter correct option : ");
+     scanf("%d",& option);
+     
+     if(option>=5||option<=0)
+      {
+       goto end5;
+       }
+       
+     
+     }
+     
+     
+     
+    else if(a==6)
+    {
+    end6:
+     printf("6] what is the name of largest Indian state by area?\n 1) uttar Pradesh 2) Rajasthan 3) Madhya Pradesh 4) Maharashtra\n");
+     printf("Enter correct option : ");
+     scanf("%d",& option);
+     
+     if(option>=5||option<=0)
+       {
+       goto end6;
+        }
+       
+     
+     }
+     
+     
+     
+     else if(a==7)
+    {
+    end7:
+     printf("7] what is the name of the largest Indian state by population?\n 1) uttar Pradesh 2) Maharashtra 3) West Bangal 4) Bihar\n");
+     printf("Enter correct option : ");
+     scanf("%d",& option);
+     
+     if(option>=5||option<=0)
+     {
+      goto end7;
+      }
+     
+     }
+     
+     
+     
+    else if(a==8)
+    {
+    end8:
+     printf("8] who is known as the Nightingale of India?\n 1) M.S.subbulakshmi 2) Asha bhosle 3) sarojini naidu 4) Shreya Ghoshal\n");
+     printf("Enter correct option : ");
+     scanf("%d",& option);
+     
+     if(option>=5||option<=0)
+     {
+      goto end8;
+      }
+     
+     }
+     
+     
+     
+    else if(a==9)
+    {
+     end9:
+     printf("9] what is the name of the Indian space agency?\n 1) NASA 2) ISRO 3) DRDO 4) Tesla");
+     printf("Enter correct option : ");
+     scanf("%d",& option);
+     
+     if(option>=5||option<=0)
+     {
+      goto end9;
+      }
+     
+     }
+     
+     
+    else if(a==10)
+    {
+     end10:
+     printf("10] who was the first india woman to climb Mount Everest?\n 1) santhosh yadav 2) bachenri pal 3) premlata agrawal 4) arunima Sinha");
+     printf("Enter correct option : ");
+     scanf("%d",& option);
+     
+     if(option>=5||option<=0)
+     {
+      goto end10;
+      
+     }
+     break;
+     }
+}
+     return 0;
+     }
+     
